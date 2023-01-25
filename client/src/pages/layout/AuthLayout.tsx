@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import { FullScreenCard } from '../../Components/FullScreenCard';
+import { FullScreenCard } from '../../components/FullScreenCard';
 
 export function AuthLayout() {
   return (
@@ -7,7 +7,7 @@ export function AuthLayout() {
       <FullScreenCard.Body>
         <Outlet />
       </FullScreenCard.Body>
-      <FullScreenCard.BellowCard>Hi</FullScreenCard.BellowCard>
+      <FullScreenCard.BelowCard>Hi</FullScreenCard.BelowCard>
     </FullScreenCard>
   );
 }
